@@ -1,0 +1,188 @@
+"""name = input()
+print('Hello'+ ","+ " "+ name + "!")"""
+
+
+
+
+""" N =int(input())
+K = int(input())
+D = K%N
+print(D) """
+
+"""N =int(input())
+K = int(input())
+""D = K//N
+print(D)"""
+
+"""N = int(input())
+print(2**N)"""
+
+"""a = int(input())
+print(a % 10)"""
+
+"""a = int(input())
+print(a // 10)"""
+
+"""N = int(input())
+D = (N%100)//10
+print(D)"""
+
+"""N = int(input())
+S= N//100
+""D= (N%100)//10
+E = (N%100)%10
+print(S+D+E)"""
+
+"""print("A"*100)"""
+
+"""N = int(input())
+print( "\t    _~_ \n \t   (o o) \n \t  /  V  \ \n\t /(  _  )\ \n\t   ^^ ^^  "   * N )"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""name = input()
+print('Hello,',name,end='!')"""
+
+
+
+"""N = int(input())
+k = int(input())
+print(k//N)"""
+
+
+
+
+"""N = int(input())
+k = int(input())
+print('Остаток',k%N)"""
+
+
+
+
+"""N = int(input())
+print(2**N)"""
+
+
+
+
+"""n = int(input())
+print(n % 10)"""
+
+
+
+"""n = int(input())
+print(n // 10)"""
+
+
+
+"""n = int(input())
+print (n % 100 // 10)"""
+
+
+
+"""n = int(input())
+s = (n % 10)+(n % 100 // 10)+(n // 100)
+print (s)"""
+
+
+
+"""print('A'*100)"""
+
+
+
+"""n = int(input())
+h = n//60
+m = (n%60)
+print (h , m)"""
+
+
+
+
+
+
+
+
+
+
+"""N = int(input())
+if N>1439:
+  N=N-1439
+  C = N//60
+  M = N%60
+  print(C,M)
+else:
+   C = N//60
+    M = N%60
+   print(C,M)"""
+
+A = int(input())
+B = int(input())
+N = int(input())
+A=B*N//100+A*N
+B=B*N%100
+print(A,B)
+
+"""N = int(input())
+print('The next number for the number',N,'is',N+1,end='.\n')
+print('The previous number for the number',N,'is',N-1,end='.\n')"""
+
+
+"""A = int(input())
+if A==1:
+print(0)
+if A==0:
+print(1)"""
+
+"""A = int(input())
+if A&2==0:
+ print(A+2)
+else: 
+ print(A+3)"""
+
+
+"""V = int(input())
+T = int(input())
+S = V*T
+if S>109:
+    S=S-109
+if S< -109:
+    S = S+109
+if V>0:
+ print(S)
+if V<0:
+    print(109-S)&&&&&&&&&&&"""
+
+
+
+
+"""n = int(input())
+h = n % 1439 // 60
+m = n % 60
+print (h , m)"""
+
+
+"""A = int(input())
+B = int(input())
+N = int(input())
+print(A*N+(B//100)*N)"""
+
+"""A = int(input())
+B = int(input())
+C = int(input())
+K=B*C
+R=K//100
+B=B&100
+print(A*C+R,B*C)"""
+
+
+
